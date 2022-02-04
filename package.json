@@ -12,6 +12,7 @@
     "style:check": "prettier --check \"src/**/*.ts\" \"test/**/*.ts\"",
     "style:fix": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "test:functional": "jest --projects ./test --runInBand",
+    "test:unit": "jest"
   },
   "repository": {
     "type": "git",
@@ -41,6 +42,7 @@
   },
   "dependencies": {
     "@overnightjs/core": "^1.7.6",
+    "axios": "^0.25.0",
     "body-parser": "^1.19.1",
     "express": "^4.17.2",
     "module-alias": "^2.2.2"
